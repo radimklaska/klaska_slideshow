@@ -31,7 +31,7 @@ function klaska_slideshow_image_default_styles() {
   $styles['slide_img'] = array(
     'name' => 'slide_img',
     'effects' => array(
-      4 => array(
+      1 => array(
         'label' => 'Změnit velikost se zachováním poměru stran a oříznout',
         'help' => 'Nejprve se provede změna velikosti se zachováním poměru stran původního obrázku a teprve potom se ořízne delší rozměr. Vhodné pro vytváření náhledů s pravidelnými rozměry bez roztahování obrázku.',
         'effect callback' => 'image_scale_and_crop_effect',
@@ -41,8 +41,8 @@ function klaska_slideshow_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '875',
-          'height' => '342',
+          'width' => '940',
+          'height' => '150',
         ),
         'weight' => '1',
       ),
